@@ -59,13 +59,13 @@ Row(
  Icon(Icons.thumb_up, color: Colors.green, size: 40),
  ],
 ), Column(
- mainAxisAlignment: MainAxisAlignment.center,
- crossAxisAlignment: CrossAxisAlignment.center,
+ mainAxisAlignment: MainAxisAlignment.spaceBetween,
+ crossAxisAlignment:CrossAxisAlignment.end,
  children: [
  Text('Titre principal', style: TextStyle(fontSize: 17)),
  SizedBox(height: 29),
  Text('Sous-titre ou description'),
- Icon(Icons.thumb_up, color: Colors.green, size: 40git),
+ Icon(Icons.thumb_up, color: Colors.green, size: 40),
  ],
 ),],
           ),
